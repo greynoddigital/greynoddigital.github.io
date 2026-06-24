@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Services — GreyNod Digital</title>
+  <meta name="description" content="Website development, Shopify stores, maintenance, and technical support — all at transparent, honest pricing." />
+  <link rel="canonical" href="https://greynoddigital.com/services.html" />
+  <link rel="icon" href="assets/logo/favicon.ico" />
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="Services — GreyNod Digital" />
+  <meta property="og:description" content="Website development, Shopify stores, maintenance, and technical support — all at transparent, honest pricing." />
+  <meta property="og:url" content="https://greynoddigital.com/services.html" />
+  <meta property="og:image" content="assets/logo/logo.png" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Services — GreyNod Digital" />
+  <meta name="twitter:description" content="Website development, Shopify stores, maintenance, and technical support — all at transparent, honest pricing." />
+  <meta name="twitter:image" content="assets/logo/logo.png" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Syne:wght@600;700;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- BACKGROUND -->
+  <canvas id="grid-canvas"></canvas>
+  <div class="orb orb-1"></div>
+  <div class="orb orb-2"></div>
+  <div class="orb orb-3"></div>
+
+  <!-- NAVIGATION -->
+  <nav id="navbar">
+    <div class="nav-inner">
+      <a href="index.html" class="logo">
+        <img src="assets/logo/logo.png" alt="GreyNod Digital logo" width="32" height="32">
+        <span class="logo-text">GreyNod<span class="logo-accent">Digital</span></span>
+      </a>
+      <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="portfolio.html">Portfolio</a></li>
+        <li><a href="services.html" class="active">Services</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+      <a href="contact.html" class="btn btn-primary magnetic">Get Quote <span class="btn-arrow">→</span></a>
+      <button class="nav-toggle" aria-label="Toggle menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </nav>
+
+  <!-- PAGE HERO -->
+  <div class="page-hero">
+    <div class="hero-badge reveal">
+      <span class="badge-dot"></span>
+      What We Do
+    </div>
+    <h1 class="reveal">Services That<br/><span class="text-gradient">Help You Grow.</span></h1>
+    <p class="hero-sub reveal">We don't just build websites — we build growth engines. Every service is crafted to move your business forward.</p>
+  </div>
+
+  <!-- SERVICES GRID -->
+  <section style="padding: 60px 0 100px; position: relative; z-index: 1;">
+    <div class="container">
+
+      <div class="section-header reveal">
+        <p class="eyebrow">Core Services</p>
+        <h2>What We Build</h2>
+      </div>
+
+      <div class="services-page-grid">
+
+        <!-- Website Development -->
+        <div class="service-card reveal">
+          <div class="service-card-icon">
+            <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <rect x="3" y="3" width="18" height="18" rx="2"/><path d="M3 9h18M9 21V9"/>
+            </svg>
+          </div>
+          <h3>Website Development</h3>
+          <p>High-performance websites built for speed, conversions, and growth. From clean landing pages to complex web applications — every pixel crafted with intention.</p>
+          <div class="service-price">₹9,999 <span>starting at</span></div>
+          <ul class="plan-features">
+            <li>Custom design — no templates</li>
+            <li>Mobile-first and fully responsive</li>
+            <li>On-page SEO foundation</li>
+            <li>Performance optimized</li>
+            <li>Contact forms and integrations</li>
+          </ul>
+          <a href="contact.html" class="btn btn-ghost magnetic">Get Started</a>
+        </div>
+
+        <!-- Shopify Development -->
+        <div class="service-card reveal">
+          <div class="service-card-icon">
+            <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M6 2L3 6v14a2 2 0 002 2h14a2 2 0 002-2V6l-3-4z"/><line x1="3" y1="6" x2="21" y2="6"/><path d="M16 10a4 4 0 01-8 0"/>
+            </svg>
+          </div>
+          <h3>Shopify Development</h3>
+          <p>Custom Shopify stores that convert visitors into buyers. Full store setup, theme customisation, payment gateways, and integrations — ready to sell from day one.</p>
+          <div class="service-price">₹11,999 <span>starting at</span></div>
+          <ul class="plan-features">
+            <li>Custom Shopify theme design</li>
+            <li>Payment gateway setup</li>
+            <li>Product upload and management</li>
+            <li>Basic SEO and speed optimization</li>
+            <li>WhatsApp and CRM integrations</li>
+          </ul>
+          <a href="contact.html" class="btn btn-primary magnetic">Get Started</a>
+        </div>
+
+        <!-- Website Maintenance -->
+        <div class="service-card reveal">
+          <div class="service-card-icon">
+            <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M14.7 6.3a1 1 0 000 1.4l1.6 1.6a1 1 0 001.4 0l3.77-3.77a6 6 0 01-7.94 7.94l-6.91 6.91a2.12 2.12 0 01-3-3l6.91-6.91a6 6 0 017.94-7.94l-3.76 3.76z"/>
+            </svg>
+          </div>
+          <h3>Website Maintenance</h3>
+          <p>Your website needs ongoing care to stay fast, secure, and current. We handle updates, backups, and monitoring so you can focus on your business.</p>
+          <div class="service-price" style="color: var(--primary); font-size: 1.4rem;">Monthly Plans</div>
+          <ul class="plan-features">
+            <li>Regular content and plugin updates</li>
+            <li>Security monitoring and backups</li>
+            <li>Performance monitoring</li>
+            <li>Minor design edits</li>
+            <li>Monthly performance report</li>
+          </ul>
+          <a href="contact.html" class="btn btn-ghost magnetic">Enquire Now</a>
+        </div>
+
+        <!-- Technical Support -->
+        <div class="service-card reveal">
+          <div class="service-card-icon">
+            <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M21 15a2 2 0 01-2 2H7l-4 4V5a2 2 0 012-2h14a2 2 0 012 2z"/>
+            </svg>
+          </div>
+          <h3>Technical Support</h3>
+          <p>Fast, reliable support when you need it most. Bug fixes, speed issues, security problems, or emergency help — we're available around the clock.</p>
+          <div class="service-price" style="color: var(--primary); font-size: 1.4rem;">24/7 Available</div>
+          <ul class="plan-features">
+            <li>Bug fixes and error resolution</li>
+            <li>Performance tuning</li>
+            <li>Security incident response</li>
+            <li>Third-party integrations</li>
+            <li>Emergency support</li>
+          </ul>
+          <a href="contact.html" class="btn btn-ghost magnetic">Get Support</a>
+        </div>
+
+      </div>
+
+      <!-- FAQ -->
+      <div class="faq-section">
+        <div class="section-header reveal">
+          <p class="eyebrow">FAQ</p>
+          <h2>Common Questions</h2>
+        </div>
+        <div class="faq-grid">
+          <div class="faq-list">
+            <div class="accordion-item reveal active">
+              <button class="accordion-trigger">
+                <span class="acc-num">01</span>
+                <span class="acc-title">How long does a website take?</span>
+                <span class="acc-icon">+</span>
+              </button>
+              <div class="accordion-body">
+                Most websites are delivered within 7–14 business days depending on complexity. Shopify stores typically take 10–15 days. We always provide a clear timeline upfront.
+              </div>
+            </div>
+            <div class="accordion-item reveal">
+              <button class="accordion-trigger">
+                <span class="acc-num">02</span>
+                <span class="acc-title">Do you provide hosting?</span>
+                <span class="acc-icon">+</span>
+              </button>
+              <div class="accordion-body">
+                We guide you through selecting and setting up the right hosting for your project. We don't bundle hosting — this keeps your costs transparent and gives you full ownership.
+              </div>
+            </div>
+            <div class="accordion-item reveal">
+              <button class="accordion-trigger">
+                <span class="acc-num">03</span>
+                <span class="acc-title">What's included in the price?</span>
+                <span class="acc-icon">+</span>
+              </button>
+              <div class="accordion-body">
+                Every package includes custom design, development, testing, and deployment. No hidden fees. We'll always discuss any additional costs clearly before proceeding.
+              </div>
+            </div>
+          </div>
+          <div class="faq-list">
+            <div class="accordion-item reveal">
+              <button class="accordion-trigger">
+                <span class="acc-num">04</span>
+                <span class="acc-title">Can I update the site myself?</span>
+                <span class="acc-icon">+</span>
+              </button>
+              <div class="accordion-body">
+                Yes. We build with user-friendly CMS tools where possible and always provide handover documentation. For Shopify stores, you have full admin access from day one.
+              </div>
+            </div>
+            <div class="accordion-item reveal">
+              <button class="accordion-trigger">
+                <span class="acc-num">05</span>
+                <span class="acc-title">Do you work with international clients?</span>
+                <span class="acc-icon">+</span>
+              </button>
+              <div class="accordion-body">
+                Absolutely. We've delivered projects in UAE, India, and beyond. Communication happens over WhatsApp, email, or video call — wherever you're most comfortable.
+              </div>
+            </div>
+            <div class="accordion-item reveal">
+              <button class="accordion-trigger">
+                <span class="acc-num">06</span>
+                <span class="acc-title">What if I need something custom?</span>
+                <span class="acc-icon">+</span>
+              </button>
+              <div class="accordion-body">
+                Reach out and describe your project. We handle custom requirements regularly — from complex web apps to unique Shopify integrations. Let's talk about what you need.
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- CTA -->
+  <section class="cta-section">
+    <div class="container">
+      <div class="cta-inner reveal">
+        <div class="cta-orb"></div>
+        <h2>Ready to Get<br/>Started?</h2>
+        <p>Tell us about your project and we'll get back to you within 24 hours.</p>
+        <a href="contact.html" class="btn btn-primary magnetic btn-lg">Get Free Quote <span class="btn-arrow">→</span></a>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-top">
+        <div class="footer-brand">
+          <a href="index.html" class="logo">
+            <img src="assets/logo/logo.png" alt="GreyNod Digital logo" width="32" height="32">
+            <span class="logo-text">GreyNod<span class="logo-accent">Digital</span></span>
+          </a>
+          <p class="footer-tagline">Websites • Shopify & Digital Growth Solutions.</p>
+        </div>
+        <div class="footer-links-group">
+          <h5>Services</h5>
+          <ul>
+            <li><a href="services.html">Website Development</a></li>
+            <li><a href="services.html">Shopify Development</a></li>
+            <li><a href="services.html">Website Maintenance</a></li>
+            <li><a href="services.html">Technical Support</a></li>
+          </ul>
+        </div>
+        <div class="footer-links-group">
+          <h5>Company</h5>
+          <ul>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="portfolio.html">Portfolio</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </div>
+        <div class="footer-links-group">
+          <h5>Contact</h5>
+          <ul>
+            <li><a href="tel:+917736514798">+91 77365 14798</a></li>
+            <li><a href="mailto:greynodlabs@gmail.com">greynodlabs@gmail.com</a></li>
+            <li>Kozhikode, Kerala, India</li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>© 2025 GreyNod Digital. All rights reserved.</p>
+        <p class="footer-credit">Built with ❤ by <a href="#">GreyNod Labs</a></p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="main.js"></script>
+</body>
+</html>
