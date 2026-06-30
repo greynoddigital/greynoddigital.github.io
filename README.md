@@ -39,7 +39,7 @@ Let's Talk
 ## Contact
 
 Email:
-[vxnuprasad@gmail.com](mailto:vxnuprasad@gmail.com)
+[vxnuprasad@gmail.com](mailto:greynoddigital@gmail.com)
 
 Phone:
-+91 7736514798
++91 9846514798
