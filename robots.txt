@@ -2,4 +2,4 @@ User-agent: *
 
 Allow: /
 
-Sitemap: https://greynoddigital.com/sitemap.xml
+Sitemap: https://greynoddigital.github.io/sitemap.xml
